@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcRoutingDemo", "MvcRoutingDemo\MvcRoutingDemo.csproj", "{B0B04BAC-167D-4F98-9406-F060A4701E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcRoutingDemo.Tests", "MvcRoutingDemo.Tests\MvcRoutingDemo.Tests.csproj", "{57E3BEB6-74BE-4B35-9130-EB93F58C3667}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0B04BAC-167D-4F98-9406-F060A4701E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B04BAC-167D-4F98-9406-F060A4701E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B04BAC-167D-4F98-9406-F060A4701E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B04BAC-167D-4F98-9406-F060A4701E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E3BEB6-74BE-4B35-9130-EB93F58C3667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E3BEB6-74BE-4B35-9130-EB93F58C3667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E3BEB6-74BE-4B35-9130-EB93F58C3667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E3BEB6-74BE-4B35-9130-EB93F58C3667}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

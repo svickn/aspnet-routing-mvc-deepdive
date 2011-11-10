@@ -1,0 +1,16 @@
+﻿@using MvcRoutingDemo.Models
+@model ProductsListViewModel
+
+@{
+    ViewBag.Title = "Products List";
+}
+
+<h2>List</h2>
+@foreach (Product product in Model.Products)
+{
+    <h3>@product.Name</h3>
+    <p>
+        @product.Brand<br />
+        @string.Format("{0:C}", product.Price)
+    </p>
+}
